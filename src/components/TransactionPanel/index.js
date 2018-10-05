@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Col } from 'react-flexbox-grid'
 import transactionService from '../../services/transactionService'
 import map from 'lodash/map'
-import { StyledPanel, StyledPanelTableHeader, StyledPanelBody, StyledPanelBodyEmpty } from '../../styles/StyledPanel'
+import { StyledPanel, StyledColRight, StyledPanelTableHeader, StyledPanelBody, StyledPanelBodyEmpty } from '../../styles/StyledPanel'
 import TransactionPanelRow from './TransactionPanelRow'
 
 export default class TransactionPanel extends Component {
@@ -27,13 +27,14 @@ export default class TransactionPanel extends Component {
 
   render() {
     // if loading is true render loading panel
+    // put page title helper here
     return (
       <StyledPanel>
         <StyledPanelTableHeader>
           <Col xs={6} sm={3} md={2} lg={2}>Date</Col>
           <Col xs={6} sm={6} md={4} lg={4}>Company</Col>
           <Col xs={6} sm={3} md={4} lg={4}>Account</Col>
-          <Col xs={6} sm={3} md={2} lg={2}>Total</Col>
+          <StyledColRight xs={6} sm={3} md={2} lg={2}>Total</StyledColRight>
         </StyledPanelTableHeader>
         {this.hasTransactions() && (
           <StyledPanelBody>

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Row } from 'react-flexbox-grid'
+import { Row, Col } from 'react-flexbox-grid'
 
 // wrapped around the whole panel
 const StyledPanel = styled.div`
@@ -13,13 +13,8 @@ const StyledPanel = styled.div`
 // used to wrap around StylePanelTableRow so that the first row does not display a top boarder
 const StyledPanelBody = styled.div`
   & > div:not(:first-child) {
-    border-top: ${props => (props.noBorder ? '' : '1pt solid #f0f0f0')};
+    border-top: '1pt solid #f0f0f0';
   }
-  > {
-    &:first-child {
-      padding-top: 9px;
-      }
-    }
 `
 
 // used for table headers on the panel
@@ -28,16 +23,17 @@ const StyledPanelTableHeader = styled(Row)`
   padding: .85em;
   font-weight: 500;
   border-radius: .15em .15em 0px 0px;
-  font-size: 16px;
+  font-size: 15px;
   color: ${props => props.theme.brandGreen};
-  border-bottom: 1pt solid #f0f0f0;
   margin: 0 !important; 
 `
 
 const StyledPanelTableRow = styled(Row)`
-  background-color: white;
+  background-image: linear-gradient(#fbfaf9, #fefefd);
   clear:both;
-  padding-top: 15px;
+  padding: .9em .85em .85em .85em;
+  margin: 0 !important; 
+  border-top: 1pt solid #f0f0f0;
 `
 
 // used as the panel body if you are conditionally displaying an il8n empty message and not using a footer
@@ -48,10 +44,15 @@ const StyledPanelBodyEmpty = styled.div`
   font-size: 16px;
 `
 
+const StyledColRight = styled(Col)`
+  text-align: right;
+` 
+
 export {
   StyledPanelBodyEmpty,
   StyledPanelTableRow,
   StyledPanelTableHeader,
   StyledPanelBody,
   StyledPanel,
+  StyledColRight,
 }
