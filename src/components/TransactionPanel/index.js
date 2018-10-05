@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Col } from 'react-flexbox-grid'
 import transactionService from '../../services/transactionService'
 import map from 'lodash/map'
+import concat from 'lodash/concat'
+import round from 'lodash/round'
 import sum from 'lodash/sum'
 import { StyledPanel, StyledColRight, StyledPanelTableHeader, StyledPanelBody, StyledPanelBodyEmpty } from '../../styles/StyledPanel'
 import TransactionPanelRow from './TransactionPanelRow'
@@ -9,22 +11,15 @@ import numberConversionHelper from '../../helpers/numberConversionHelper'
 
 export default class TransactionPanel extends Component {
   state = {
-    transactions: 0,
+    transactions: [],
     page: 1,
     transactionCount: 0,
     loading: true,
+    pagesNeeded: 0,
   }
 
   componentDidMount() {
-    transactionService.get(this.state.page)
-    .then((response) => {
-      console.log(response)
-      this.setState({
-        transactions: response.transactions,
-        transactionCount: response.totalCount,
-        page: response.page + 1
-      }) // as a callback, check if we need to fetch the next page and set loaded to true if not
-    })
+    this.fetchTransactions(this.state.page)
   }
 
   render() {
@@ -52,6 +47,23 @@ export default class TransactionPanel extends Component {
         )}
       </StyledPanel>
     )
+  }
+
+  fetchTransactions = (page) => {
+    transactionService.get(page)
+      .then((response) => {
+        const currentTransactions = this.state.transactions
+        this.setState({
+          page: response.page,
+          transactions: concat(currentTransactions, response.transactions),
+          pagesNeeded: round(response.totalCount / 10, 0)
+        }, () => this.fetchNextPage(response.page))
+      })
+  }
+
+  fetchNextPage = (currentPage) => {
+    if (this.state.page === this.state.pagesNeeded) { return null }
+    this.fetchTransactions(currentPage + 1)
   }
 
   calculateTotal = () => (
