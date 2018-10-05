@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { object } from 'prop-types'
 import { Col } from 'react-flexbox-grid'
 import dateFormatHelper from '../../helpers/dateFormatHelper'
