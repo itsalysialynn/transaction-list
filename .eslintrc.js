@@ -18,5 +18,4 @@ module.exports = {
       'everything-else',
     ]}],
   },
-  "root": true,
 };
