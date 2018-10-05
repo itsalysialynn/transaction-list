@@ -34,6 +34,12 @@ const StyledPanelTableHeader = styled(Row)`
   margin: 0 !important; 
 `
 
+const StyledPanelTableRow = styled(Row)`
+  background-color: white;
+  clear:both;
+  padding-top: 15px;
+`
+
 // used as the panel body if you are conditionally displaying an il8n empty message and not using a footer
 const StyledPanelBodyEmpty = styled.div`
   color: ${props => props.theme.mutedText};
