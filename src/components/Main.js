@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
-import styled from 'styled-components';
-import TopNav from './TopNav';
-import TransactionPanel from './TransactionPanel/index';
+import React, { Fragment } from 'react'
+import styled from 'styled-components'
+import TopNav from './TopNav'
+import TransactionPanel from './TransactionPanel/index'
 
 export default function Main(props) {
   return (
@@ -15,6 +15,6 @@ export default function Main(props) {
 }
 
 const StyledMainBody = styled.div`
-  padding: 1.9em;
+  padding: 1.9em
 `
 
