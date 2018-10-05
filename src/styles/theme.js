@@ -5,7 +5,7 @@ const theme = {
   brandBrown: '#D2A764',
   mutedText: '#9D9C9F',
   darkText: '#3e3f44',
-  white: 'FFFFFF',
+  white: '#FFFFFF',
 }
 
 export default theme

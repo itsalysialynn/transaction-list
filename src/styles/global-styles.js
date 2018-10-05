@@ -6,7 +6,8 @@ injectGlobal`
     height: 100%;
     width: 100%;
     cursor: initial;
-    font-size: 16px;
+    font-size: 20px;
+    margin: 0px;
     line-height: 1.6;
     overflow: auto;
     background-color: #EFEDE8;
