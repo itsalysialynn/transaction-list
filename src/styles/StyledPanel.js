@@ -40,8 +40,9 @@ const StyledPanelTableRow = styled(Row)`
 const StyledPanelBodyEmpty = styled.div`
   color: ${props => props.theme.mutedText};
   border-radius: 0 0 0.15em 0.15em;
-  padding: 1.5em;
+  padding: 1em 0 1em 1.5em;
   font-size: 16px;
+  border-top: 1pt solid #f0f0f0;
 `
 
 const StyledColRight = styled(Col)`
