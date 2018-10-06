@@ -15,6 +15,6 @@ export default function Main() {
 }
 
 const StyledMainBody = styled.div`
-  padding: 1.9em
+  padding: 1.9em;
 `
 

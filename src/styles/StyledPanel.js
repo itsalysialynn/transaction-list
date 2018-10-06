@@ -25,7 +25,7 @@ const StyledPanelTableHeader = styled(Row)`
   border-radius: .15em .15em 0px 0px;
   font-size: 15px;
   color: ${props => props.theme.brandGreen};
-  margin: 0 !important; 
+  margin: 0 !important;
 `
 
 const StyledPanelTableRow = styled(Row)`
