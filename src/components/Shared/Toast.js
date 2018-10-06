@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ToastContainer, style } from 'react-toastify'
+import { ToastContainer } from 'react-toastify'
 
 const Toast = () => (
   <StyledToastContainer hideProgressBar position="bottom-right" />
