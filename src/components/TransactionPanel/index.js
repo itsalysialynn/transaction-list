@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Col } from 'react-flexbox-grid'
 import map from 'lodash/map'
+import get from 'lodash/get'
 import concat from 'lodash/concat'
 import sum from 'lodash/sum'
 import transactionService from '../../services/transactionService'
@@ -59,12 +60,13 @@ export default class TransactionPanel extends Component {
       .then((response) => {
         const currentTransactions = this.state.transactions
         this.setState({
-          transactions: concat(currentTransactions, response.transactions),
-        }, () => this.fetchNextPage(response.totalCount, response.page))
+          transactions: concat(currentTransactions, get(response, 'transactions', [])),
+        }, () => this.fetchNextPage(get(response, 'totalCount'), get(response, 'page')))
       })
   }
 
   fetchNextPage = (totalTransactions, currentPage) => {
+    if (!totalTransactions || !currentPage) { return null }
     if (this.state.transactions.length !== totalTransactions) {
       return this.fetchTransactions(currentPage + 1)
     }
