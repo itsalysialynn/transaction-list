@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify'
 
 export default {
   get: page => (
@@ -12,6 +13,6 @@ export default {
           return response.json()
         }
       })
-      .catch((error) => { console.log(error) })
+      .catch((error) => { toast(error) })
   ),
 }

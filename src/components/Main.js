@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import TopNav from './TopNav'
 import TransactionPanel from './TransactionPanel'
+import Toast from './Shared/Toast'
 
 export default function Main() {
   return (
@@ -9,6 +10,7 @@ export default function Main() {
       <TopNav />
       <StyledMainBody>
         <TransactionPanel />
+        <Toast />
       </StyledMainBody>
     </Fragment>
   )

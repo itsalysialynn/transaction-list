@@ -5,6 +5,8 @@ import App from './App'
 // Import CSS reset and Global Styles
 import './styles/global-styles'
 
+import 'react-toastify/dist/ReactToastify.css'
+
 import * as serviceWorker from './serviceWorker'
 
 /* global document */
