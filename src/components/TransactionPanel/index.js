@@ -70,7 +70,7 @@ export default class TransactionPanel extends Component {
     if (this.state.transactions.length !== totalTransactions) {
       return this.fetchTransactions(currentPage + 1)
     }
-    this.setState({ loading: false })
+    return this.setState({ loading: false })
   }
 
   calculateTotal = () => (
