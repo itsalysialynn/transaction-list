@@ -11,7 +11,6 @@ export default {
         if (response.ok) {
           return response.json()
         }
-        return response.json().then((err) => { console.log(err) })
       })
       .catch((error) => { console.log(error) })
   ),

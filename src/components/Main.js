@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import TopNav from './TopNav'
-import TransactionPanel from './TransactionPanel/index'
+import TransactionPanel from './TransactionPanel'
 
 export default function Main() {
   return (
@@ -17,4 +17,3 @@ export default function Main() {
 const StyledMainBody = styled.div`
   padding: 1.9em;
 `
-

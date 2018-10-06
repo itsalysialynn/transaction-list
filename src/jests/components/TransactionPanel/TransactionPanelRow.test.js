@@ -2,14 +2,12 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import TransactionPanelRow from '../../../components/TransactionPanel/TransactionPanelRow'
 
-/* global describe, it, expect, test, jest, test  */
-
 const props = {
   transaction: {
     Date: '2016-01-29T17:35:00.000-07:00',
     Amount: '-5',
     Ledger: 'Interest Earned',
-    Company: 'TD'
+    Company: 'TD',
   },
 }
 
@@ -24,5 +22,4 @@ describe('rendering transaction panel', () => {
     expect(component).toMatchSnapshot()
   })
 })
-
 

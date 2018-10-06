@@ -7,6 +7,7 @@ import './styles/global-styles'
 
 import * as serviceWorker from './serviceWorker'
 
+/* global document */
 
 ReactDOM.render(<App />, document.getElementById('root'))
 

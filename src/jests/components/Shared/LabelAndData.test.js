@@ -2,8 +2,6 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import LabelAndData from '../../../components/Shared/LabelAndData'
 
-/* global describe, it, expect, test, jest, test  */
-
 describe('rendering label and data', () => {
   const props = { label: 'Amount' }
   const component = shallow(<LabelAndData {...props} />)
@@ -13,5 +11,4 @@ describe('rendering label and data', () => {
     expect(component).toMatchSnapshot()
   })
 })
-
 

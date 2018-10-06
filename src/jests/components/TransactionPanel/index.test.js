@@ -2,8 +2,6 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import TransactionPanel from '../../../components/TransactionPanel'
 
-/* global describe, it, expect, test, jest, test  */
-
 describe('loading', () => {
   const component = shallow(<TransactionPanel />).setState({ loading: true })
 
@@ -57,5 +55,4 @@ describe('calculating the total', () => {
     expect(component.instance().calculateTotal()).toEqual(436.765)
   })
 })
-
 

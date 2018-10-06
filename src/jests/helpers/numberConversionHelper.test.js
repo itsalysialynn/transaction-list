@@ -1,7 +1,5 @@
 import numberConversionHelper from '../../helpers/numberConversionHelper'
 
-/* global describe, it, expect */
-
 describe('numberConversionHelper', () => {
   describe('toCurrency', () => {
     it('should ignore nulls', () => {

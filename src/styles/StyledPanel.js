@@ -46,7 +46,7 @@ const StyledPanelBodyEmpty = styled.div`
 
 const StyledColRight = styled(Col)`
   text-align: right;
-` 
+`
 
 export {
   StyledPanelBodyEmpty,

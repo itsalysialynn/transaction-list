@@ -1,7 +1,5 @@
 import dateFormatHelper from '../../helpers/dateFormatHelper'
 
-/* global describe, it, expect */
-
 describe('dateFormatHelper', () => {
   const date = '2017-08-28T17:35:00.000-07:00'
 

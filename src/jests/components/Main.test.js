@@ -2,8 +2,6 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import Main from '../../components/Main'
 
-/* global describe, it, expect,  test */
-
 describe('should render', () => {
   const component = shallow(<Main />)
 
