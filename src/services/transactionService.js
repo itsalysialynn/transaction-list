@@ -9,9 +9,10 @@ export default {
       },
     })
       .then((response) => {
-        if (response.ok) {
+        if (response.ok && response.status >= 200 && response.status < 300) {
           return response.json()
         }
+        toast(response.statusText || response.status)
       })
       .catch((error) => { toast(error) })
   ),
