@@ -58,15 +58,16 @@ export default class TransactionPanel extends Component {
   fetchTransactions = (page) => {
     transactionService.get(page)
       .then((response) => {
-        const currentTransactions = this.state.transactions
-        this.setState({
-          transactions: concat(currentTransactions, get(response, 'transactions', [])),
-        }, () => this.fetchNextPage(get(response, 'totalCount'), get(response, 'page')))
+        if (response) {
+          const currentTransactions = this.state.transactions
+          this.setState({
+            transactions: concat(currentTransactions, get(response, 'transactions', [])),
+          }, () => this.fetchNextPage(response.totalCount, response.page))
+        }
       })
   }
 
   fetchNextPage = (totalTransactions, currentPage) => {
-    if (!totalTransactions || !currentPage) { return null }
     if (this.state.transactions.length !== totalTransactions) {
       return this.fetchTransactions(currentPage + 1)
     }
