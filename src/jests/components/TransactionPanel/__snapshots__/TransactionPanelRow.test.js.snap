@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering transaction panel should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TransactionPanelRow
+    transaction={
+      Object {
+        "Amount": "-5",
+        "Company": "TD",
+        "Date": "2016-01-29T17:35:00.000-07:00",
+        "Ledger": "Interest Earned",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Col
+          lg={2}
+          md={2}
+          sm={3}
+          xs={6}
+        >
+          <Styled(styled.div)>
+            Jan 29th, 2016
+          </Styled(styled.div)>
+        </Col>,
+        <Col
+          lg={4}
+          md={4}
+          sm={6}
+          xs={6}
+        >
+          <Styled(styled.div)>
+            TD
+          </Styled(styled.div)>
+        </Col>,
+        <Col
+          lg={4}
+          md={4}
+          sm={3}
+          xs={6}
+        >
+          <Styled(styled.div)>
+            Interest Earned
+          </Styled(styled.div)>
+        </Col>,
+        <Styled(Col)
+          lg={2}
+          md={2}
+          sm={3}
+          xs={6}
+        >
+          <Styled(styled.div)>
+            ($5.00)
+          </Styled(styled.div)>
+        </Styled(Col)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Styled(styled.div)>
+            Jan 29th, 2016
+          </Styled(styled.div)>,
+          "lg": 2,
+          "md": 2,
+          "sm": 3,
+          "xs": 6,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Jan 29th, 2016",
+          },
+          "ref": null,
+          "rendered": "Jan 29th, 2016",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Styled(styled.div)>
+            TD
+          </Styled(styled.div)>,
+          "lg": 4,
+          "md": 4,
+          "sm": 6,
+          "xs": 6,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "TD",
+          },
+          "ref": null,
+          "rendered": "TD",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Styled(styled.div)>
+            Interest Earned
+          </Styled(styled.div)>,
+          "lg": 4,
+          "md": 4,
+          "sm": 3,
+          "xs": 6,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Interest Earned",
+          },
+          "ref": null,
+          "rendered": "Interest Earned",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(styled.div)>
+              ($5.00)
+            </Styled(styled.div)>,
+            false,
+          ],
+          "lg": 2,
+          "md": 2,
+          "sm": 3,
+          "xs": 6,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "($5.00)",
+            },
+            "ref": null,
+            "rendered": "($5.00)",
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Col
+            lg={2}
+            md={2}
+            sm={3}
+            xs={6}
+          >
+            <Styled(styled.div)>
+              Jan 29th, 2016
+            </Styled(styled.div)>
+          </Col>,
+          <Col
+            lg={4}
+            md={4}
+            sm={6}
+            xs={6}
+          >
+            <Styled(styled.div)>
+              TD
+            </Styled(styled.div)>
+          </Col>,
+          <Col
+            lg={4}
+            md={4}
+            sm={3}
+            xs={6}
+          >
+            <Styled(styled.div)>
+              Interest Earned
+            </Styled(styled.div)>
+          </Col>,
+          <Styled(Col)
+            lg={2}
+            md={2}
+            sm={3}
+            xs={6}
+          >
+            <Styled(styled.div)>
+              ($5.00)
+            </Styled(styled.div)>
+          </Styled(Col)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Styled(styled.div)>
+              Jan 29th, 2016
+            </Styled(styled.div)>,
+            "lg": 2,
+            "md": 2,
+            "sm": 3,
+            "xs": 6,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Jan 29th, 2016",
+            },
+            "ref": null,
+            "rendered": "Jan 29th, 2016",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Styled(styled.div)>
+              TD
+            </Styled(styled.div)>,
+            "lg": 4,
+            "md": 4,
+            "sm": 6,
+            "xs": 6,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "TD",
+            },
+            "ref": null,
+            "rendered": "TD",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Styled(styled.div)>
+              Interest Earned
+            </Styled(styled.div)>,
+            "lg": 4,
+            "md": 4,
+            "sm": 3,
+            "xs": 6,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Interest Earned",
+            },
+            "ref": null,
+            "rendered": "Interest Earned",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(styled.div)>
+                ($5.00)
+              </Styled(styled.div)>,
+              false,
+            ],
+            "lg": 2,
+            "md": 2,
+            "sm": 3,
+            "xs": 6,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "($5.00)",
+              },
+              "ref": null,
+              "rendered": "($5.00)",
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

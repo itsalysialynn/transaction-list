@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import TopNav from './TopNav'
 import TransactionPanel from './TransactionPanel/index'
 
-export default function Main(props) {
+export default function Main() {
   return (
     <Fragment>
       <TopNav />

@@ -4,7 +4,7 @@ export default {
   toCurrency: (amount) => {
     if (!amount || amount === '') { return null }
     if (isNaN(amount)) { return 0.00 }
-    if (amount < 0) { return `($${round(amount, 2).toFixed(2)})` }
+    if (amount < 0) { return `($${round(amount, 2).toFixed(2).replace("-","")})` }
     return `$${round(amount, 2).toFixed(2)}`
   },
 }
