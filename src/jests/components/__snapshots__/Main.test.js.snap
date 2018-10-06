@@ -21,6 +21,7 @@ ShallowWrapper {
         <TopNav />,
         <styled.div>
           <TransactionPanel />
+          <Toast />
         </styled.div>,
       ],
     },
@@ -40,18 +41,32 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <TransactionPanel />,
+          "children": Array [
+            <TransactionPanel />,
+            <Toast />,
+          ],
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
     ],
@@ -67,6 +82,7 @@ ShallowWrapper {
           <TopNav />,
           <styled.div>
             <TransactionPanel />
+            <Toast />
           </styled.div>,
         ],
       },
@@ -86,18 +102,32 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <TransactionPanel />,
+            "children": Array [
+              <TransactionPanel />,
+              <Toast />,
+            ],
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],

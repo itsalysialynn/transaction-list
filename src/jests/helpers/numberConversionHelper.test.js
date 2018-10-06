@@ -11,11 +11,11 @@ describe('numberConversionHelper', () => {
     })
 
     it('should round numbers', () => {
-      expect(numberConversionHelper.toCurrency('1234.5678')).toEqual('$1234.57')
+      expect(numberConversionHelper.toCurrency('1234.5678')).toEqual('$1,234.57')
     })
 
     it('should remove dashes and format in negative numbers', () => {
-      expect(numberConversionHelper.toCurrency('-16372.63')).toEqual('($16372.63)')
+      expect(numberConversionHelper.toCurrency('-16372.63')).toEqual('($16,372.63)')
     })
 
     it('should format in positive numbers', () => {
