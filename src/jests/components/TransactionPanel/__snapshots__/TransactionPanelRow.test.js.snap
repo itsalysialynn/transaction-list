@@ -30,43 +30,71 @@ ShallowWrapper {
         <Col
           lg={2}
           md={2}
-          sm={3}
-          xs={6}
+          sm={6}
+          xs={12}
         >
-          <Styled(styled.div)>
-            Jan 29th, 2016
-          </Styled(styled.div)>
+          <LabelAndData
+            label="Date"
+          >
+            <Styled(styled.div)>
+              Jan 29th, 2016
+            </Styled(styled.div)>
+          </LabelAndData>
         </Col>,
         <Col
           lg={4}
           md={4}
           sm={6}
-          xs={6}
+          xs={12}
         >
-          <Styled(styled.div)>
-            TD
-          </Styled(styled.div)>
+          <LabelAndData
+            label="Company"
+          >
+            <Styled(styled.div)>
+              TD
+            </Styled(styled.div)>
+          </LabelAndData>
         </Col>,
         <Col
           lg={4}
           md={4}
-          sm={3}
-          xs={6}
+          sm={6}
+          xs={8}
         >
-          <Styled(styled.div)>
-            Interest Earned
-          </Styled(styled.div)>
+          <LabelAndData
+            label="Account"
+          >
+            <Styled(styled.div)>
+              Interest Earned
+            </Styled(styled.div)>
+          </LabelAndData>
         </Col>,
         <Styled(Col)
+          className="hidden-sm"
           lg={2}
           md={2}
-          sm={3}
-          xs={6}
+          xs={4}
         >
-          <Styled(styled.div)>
-            ($5.00)
-          </Styled(styled.div)>
+          <LabelAndData
+            label="Amount"
+          >
+            <Styled(styled.div)>
+              ($5.00)
+            </Styled(styled.div)>
+          </LabelAndData>
         </Styled(Col)>,
+        <Col
+          className="hidden-xs hidden-md hidden-lg hidden-xl"
+          sm={6}
+        >
+          <LabelAndData
+            label="Amount"
+          >
+            <Styled(styled.div)>
+              ($5.00)
+            </Styled(styled.div)>
+          </LabelAndData>
+        </Col>,
       ],
     },
     "ref": null,
@@ -76,24 +104,41 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <Styled(styled.div)>
-            Jan 29th, 2016
-          </Styled(styled.div)>,
+          "children": <LabelAndData
+            label="Date"
+          >
+            <Styled(styled.div)>
+              Jan 29th, 2016
+            </Styled(styled.div)>
+          </LabelAndData>,
           "lg": 2,
           "md": 2,
-          "sm": 3,
-          "xs": 6,
+          "sm": 6,
+          "xs": 12,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": "Jan 29th, 2016",
+            "children": <Styled(styled.div)>
+              Jan 29th, 2016
+            </Styled(styled.div)>,
+            "label": "Date",
           },
           "ref": null,
-          "rendered": "Jan 29th, 2016",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Jan 29th, 2016",
+            },
+            "ref": null,
+            "rendered": "Jan 29th, 2016",
+            "type": [Function],
+          },
           "type": [Function],
         },
         "type": [Function],
@@ -103,24 +148,41 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <Styled(styled.div)>
-            TD
-          </Styled(styled.div)>,
+          "children": <LabelAndData
+            label="Company"
+          >
+            <Styled(styled.div)>
+              TD
+            </Styled(styled.div)>
+          </LabelAndData>,
           "lg": 4,
           "md": 4,
           "sm": 6,
-          "xs": 6,
+          "xs": 12,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": "TD",
+            "children": <Styled(styled.div)>
+              TD
+            </Styled(styled.div)>,
+            "label": "Company",
           },
           "ref": null,
-          "rendered": "TD",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "TD",
+            },
+            "ref": null,
+            "rendered": "TD",
+            "type": [Function],
+          },
           "type": [Function],
         },
         "type": [Function],
@@ -130,24 +192,41 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <Styled(styled.div)>
-            Interest Earned
-          </Styled(styled.div)>,
+          "children": <LabelAndData
+            label="Account"
+          >
+            <Styled(styled.div)>
+              Interest Earned
+            </Styled(styled.div)>
+          </LabelAndData>,
           "lg": 4,
           "md": 4,
-          "sm": 3,
-          "xs": 6,
+          "sm": 6,
+          "xs": 8,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": "Interest Earned",
+            "children": <Styled(styled.div)>
+              Interest Earned
+            </Styled(styled.div)>,
+            "label": "Account",
           },
           "ref": null,
-          "rendered": "Interest Earned",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Interest Earned",
+            },
+            "ref": null,
+            "rendered": "Interest Earned",
+            "type": [Function],
+          },
           "type": [Function],
         },
         "type": [Function],
@@ -158,27 +237,92 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Styled(styled.div)>
-              ($5.00)
-            </Styled(styled.div)>,
+            <LabelAndData
+              label="Amount"
+            >
+              <Styled(styled.div)>
+                ($5.00)
+              </Styled(styled.div)>
+            </LabelAndData>,
             false,
           ],
+          "className": "hidden-sm",
           "lg": 2,
           "md": 2,
-          "sm": 3,
-          "xs": 6,
+          "xs": 4,
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": "($5.00)",
+              "children": <Styled(styled.div)>
+                ($5.00)
+              </Styled(styled.div)>,
+              "label": "Amount",
             },
             "ref": null,
-            "rendered": "($5.00)",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "($5.00)",
+              },
+              "ref": null,
+              "rendered": "($5.00)",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <LabelAndData
+              label="Amount"
+            >
+              <Styled(styled.div)>
+                ($5.00)
+              </Styled(styled.div)>
+            </LabelAndData>,
+            false,
+          ],
+          "className": "hidden-xs hidden-md hidden-lg hidden-xl",
+          "sm": 6,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Styled(styled.div)>
+                ($5.00)
+              </Styled(styled.div)>,
+              "label": "Amount",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "($5.00)",
+              },
+              "ref": null,
+              "rendered": "($5.00)",
+              "type": [Function],
+            },
             "type": [Function],
           },
           false,
@@ -198,43 +342,71 @@ ShallowWrapper {
           <Col
             lg={2}
             md={2}
-            sm={3}
-            xs={6}
+            sm={6}
+            xs={12}
           >
-            <Styled(styled.div)>
-              Jan 29th, 2016
-            </Styled(styled.div)>
+            <LabelAndData
+              label="Date"
+            >
+              <Styled(styled.div)>
+                Jan 29th, 2016
+              </Styled(styled.div)>
+            </LabelAndData>
           </Col>,
           <Col
             lg={4}
             md={4}
             sm={6}
-            xs={6}
+            xs={12}
           >
-            <Styled(styled.div)>
-              TD
-            </Styled(styled.div)>
+            <LabelAndData
+              label="Company"
+            >
+              <Styled(styled.div)>
+                TD
+              </Styled(styled.div)>
+            </LabelAndData>
           </Col>,
           <Col
             lg={4}
             md={4}
-            sm={3}
-            xs={6}
+            sm={6}
+            xs={8}
           >
-            <Styled(styled.div)>
-              Interest Earned
-            </Styled(styled.div)>
+            <LabelAndData
+              label="Account"
+            >
+              <Styled(styled.div)>
+                Interest Earned
+              </Styled(styled.div)>
+            </LabelAndData>
           </Col>,
           <Styled(Col)
+            className="hidden-sm"
             lg={2}
             md={2}
-            sm={3}
-            xs={6}
+            xs={4}
           >
-            <Styled(styled.div)>
-              ($5.00)
-            </Styled(styled.div)>
+            <LabelAndData
+              label="Amount"
+            >
+              <Styled(styled.div)>
+                ($5.00)
+              </Styled(styled.div)>
+            </LabelAndData>
           </Styled(Col)>,
+          <Col
+            className="hidden-xs hidden-md hidden-lg hidden-xl"
+            sm={6}
+          >
+            <LabelAndData
+              label="Amount"
+            >
+              <Styled(styled.div)>
+                ($5.00)
+              </Styled(styled.div)>
+            </LabelAndData>
+          </Col>,
         ],
       },
       "ref": null,
@@ -244,24 +416,41 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <Styled(styled.div)>
-              Jan 29th, 2016
-            </Styled(styled.div)>,
+            "children": <LabelAndData
+              label="Date"
+            >
+              <Styled(styled.div)>
+                Jan 29th, 2016
+              </Styled(styled.div)>
+            </LabelAndData>,
             "lg": 2,
             "md": 2,
-            "sm": 3,
-            "xs": 6,
+            "sm": 6,
+            "xs": 12,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": "Jan 29th, 2016",
+              "children": <Styled(styled.div)>
+                Jan 29th, 2016
+              </Styled(styled.div)>,
+              "label": "Date",
             },
             "ref": null,
-            "rendered": "Jan 29th, 2016",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Jan 29th, 2016",
+              },
+              "ref": null,
+              "rendered": "Jan 29th, 2016",
+              "type": [Function],
+            },
             "type": [Function],
           },
           "type": [Function],
@@ -271,24 +460,41 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <Styled(styled.div)>
-              TD
-            </Styled(styled.div)>,
+            "children": <LabelAndData
+              label="Company"
+            >
+              <Styled(styled.div)>
+                TD
+              </Styled(styled.div)>
+            </LabelAndData>,
             "lg": 4,
             "md": 4,
             "sm": 6,
-            "xs": 6,
+            "xs": 12,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": "TD",
+              "children": <Styled(styled.div)>
+                TD
+              </Styled(styled.div)>,
+              "label": "Company",
             },
             "ref": null,
-            "rendered": "TD",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "TD",
+              },
+              "ref": null,
+              "rendered": "TD",
+              "type": [Function],
+            },
             "type": [Function],
           },
           "type": [Function],
@@ -298,24 +504,41 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <Styled(styled.div)>
-              Interest Earned
-            </Styled(styled.div)>,
+            "children": <LabelAndData
+              label="Account"
+            >
+              <Styled(styled.div)>
+                Interest Earned
+              </Styled(styled.div)>
+            </LabelAndData>,
             "lg": 4,
             "md": 4,
-            "sm": 3,
-            "xs": 6,
+            "sm": 6,
+            "xs": 8,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": "Interest Earned",
+              "children": <Styled(styled.div)>
+                Interest Earned
+              </Styled(styled.div)>,
+              "label": "Account",
             },
             "ref": null,
-            "rendered": "Interest Earned",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Interest Earned",
+              },
+              "ref": null,
+              "rendered": "Interest Earned",
+              "type": [Function],
+            },
             "type": [Function],
           },
           "type": [Function],
@@ -326,27 +549,92 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Styled(styled.div)>
-                ($5.00)
-              </Styled(styled.div)>,
+              <LabelAndData
+                label="Amount"
+              >
+                <Styled(styled.div)>
+                  ($5.00)
+                </Styled(styled.div)>
+              </LabelAndData>,
               false,
             ],
+            "className": "hidden-sm",
             "lg": 2,
             "md": 2,
-            "sm": 3,
-            "xs": 6,
+            "xs": 4,
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "children": "($5.00)",
+                "children": <Styled(styled.div)>
+                  ($5.00)
+                </Styled(styled.div)>,
+                "label": "Amount",
               },
               "ref": null,
-              "rendered": "($5.00)",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "($5.00)",
+                },
+                "ref": null,
+                "rendered": "($5.00)",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <LabelAndData
+                label="Amount"
+              >
+                <Styled(styled.div)>
+                  ($5.00)
+                </Styled(styled.div)>
+              </LabelAndData>,
+              false,
+            ],
+            "className": "hidden-xs hidden-md hidden-lg hidden-xl",
+            "sm": 6,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Styled(styled.div)>
+                  ($5.00)
+                </Styled(styled.div)>,
+                "label": "Amount",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "($5.00)",
+                },
+                "ref": null,
+                "rendered": "($5.00)",
+                "type": [Function],
+              },
               "type": [Function],
             },
             false,

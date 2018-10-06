@@ -20,34 +20,31 @@ ShallowWrapper {
       "children": Array [
         <Styled(Row)>
           <Col
+            className="hidden-xs hidden-sm"
             lg={2}
             md={2}
-            sm={3}
-            xs={6}
           >
             Date
           </Col>
           <Col
+            className="hidden-xs hidden-sm"
             lg={4}
             md={4}
-            sm={6}
-            xs={6}
           >
             Company
           </Col>
           <Col
+            className="hidden-xs hidden-sm"
             lg={4}
             md={4}
-            sm={3}
-            xs={6}
           >
             Account
           </Col>
           <Styled(Col)
             lg={2}
             md={2}
-            sm={3}
-            xs={6}
+            sm={12}
+            xs={12}
           />
         </Styled(Row)>,
         false,
@@ -65,34 +62,31 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Col
+              className="hidden-xs hidden-sm"
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
             >
               Date
             </Col>,
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={6}
-              xs={6}
             >
               Company
             </Col>,
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={3}
-              xs={6}
             >
               Account
             </Col>,
             <Styled(Col)
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
+              sm={12}
+              xs={12}
             />,
           ],
         },
@@ -104,10 +98,9 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Date",
+              "className": "hidden-xs hidden-sm",
               "lg": 2,
               "md": 2,
-              "sm": 3,
-              "xs": 6,
             },
             "ref": null,
             "rendered": "Date",
@@ -119,10 +112,9 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Company",
+              "className": "hidden-xs hidden-sm",
               "lg": 4,
               "md": 4,
-              "sm": 6,
-              "xs": 6,
             },
             "ref": null,
             "rendered": "Company",
@@ -134,10 +126,9 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Account",
+              "className": "hidden-xs hidden-sm",
               "lg": 4,
               "md": 4,
-              "sm": 3,
-              "xs": 6,
             },
             "ref": null,
             "rendered": "Account",
@@ -151,8 +142,8 @@ ShallowWrapper {
               "children": null,
               "lg": 2,
               "md": 2,
-              "sm": 3,
-              "xs": 6,
+              "sm": 12,
+              "xs": 12,
             },
             "ref": null,
             "rendered": null,
@@ -185,34 +176,31 @@ ShallowWrapper {
         "children": Array [
           <Styled(Row)>
             <Col
+              className="hidden-xs hidden-sm"
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
             >
               Date
             </Col>
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={6}
-              xs={6}
             >
               Company
             </Col>
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={3}
-              xs={6}
             >
               Account
             </Col>
             <Styled(Col)
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
+              sm={12}
+              xs={12}
             />
           </Styled(Row)>,
           false,
@@ -230,34 +218,31 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Col
+                className="hidden-xs hidden-sm"
                 lg={2}
                 md={2}
-                sm={3}
-                xs={6}
               >
                 Date
               </Col>,
               <Col
+                className="hidden-xs hidden-sm"
                 lg={4}
                 md={4}
-                sm={6}
-                xs={6}
               >
                 Company
               </Col>,
               <Col
+                className="hidden-xs hidden-sm"
                 lg={4}
                 md={4}
-                sm={3}
-                xs={6}
               >
                 Account
               </Col>,
               <Styled(Col)
                 lg={2}
                 md={2}
-                sm={3}
-                xs={6}
+                sm={12}
+                xs={12}
               />,
             ],
           },
@@ -269,10 +254,9 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Date",
+                "className": "hidden-xs hidden-sm",
                 "lg": 2,
                 "md": 2,
-                "sm": 3,
-                "xs": 6,
               },
               "ref": null,
               "rendered": "Date",
@@ -284,10 +268,9 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Company",
+                "className": "hidden-xs hidden-sm",
                 "lg": 4,
                 "md": 4,
-                "sm": 6,
-                "xs": 6,
               },
               "ref": null,
               "rendered": "Company",
@@ -299,10 +282,9 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Account",
+                "className": "hidden-xs hidden-sm",
                 "lg": 4,
                 "md": 4,
-                "sm": 3,
-                "xs": 6,
               },
               "ref": null,
               "rendered": "Account",
@@ -316,8 +298,8 @@ ShallowWrapper {
                 "children": null,
                 "lg": 2,
                 "md": 2,
-                "sm": 3,
-                "xs": 6,
+                "sm": 12,
+                "xs": 12,
               },
               "ref": null,
               "rendered": null,
@@ -382,34 +364,31 @@ ShallowWrapper {
       "children": Array [
         <Styled(Row)>
           <Col
+            className="hidden-xs hidden-sm"
             lg={2}
             md={2}
-            sm={3}
-            xs={6}
           >
             Date
           </Col>
           <Col
+            className="hidden-xs hidden-sm"
             lg={4}
             md={4}
-            sm={6}
-            xs={6}
           >
             Company
           </Col>
           <Col
+            className="hidden-xs hidden-sm"
             lg={4}
             md={4}
-            sm={3}
-            xs={6}
           >
             Account
           </Col>
           <Styled(Col)
             lg={2}
             md={2}
-            sm={3}
-            xs={6}
+            sm={12}
+            xs={12}
           >
             ($5.00)
           </Styled(Col)>
@@ -436,34 +415,31 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Col
+              className="hidden-xs hidden-sm"
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
             >
               Date
             </Col>,
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={6}
-              xs={6}
             >
               Company
             </Col>,
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={3}
-              xs={6}
             >
               Account
             </Col>,
             <Styled(Col)
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
+              sm={12}
+              xs={12}
             >
               ($5.00)
             </Styled(Col)>,
@@ -477,10 +453,9 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Date",
+              "className": "hidden-xs hidden-sm",
               "lg": 2,
               "md": 2,
-              "sm": 3,
-              "xs": 6,
             },
             "ref": null,
             "rendered": "Date",
@@ -492,10 +467,9 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Company",
+              "className": "hidden-xs hidden-sm",
               "lg": 4,
               "md": 4,
-              "sm": 6,
-              "xs": 6,
             },
             "ref": null,
             "rendered": "Company",
@@ -507,10 +481,9 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Account",
+              "className": "hidden-xs hidden-sm",
               "lg": 4,
               "md": 4,
-              "sm": 3,
-              "xs": 6,
             },
             "ref": null,
             "rendered": "Account",
@@ -524,8 +497,8 @@ ShallowWrapper {
               "children": "($5.00)",
               "lg": 2,
               "md": 2,
-              "sm": 3,
-              "xs": 6,
+              "sm": 12,
+              "xs": 12,
             },
             "ref": null,
             "rendered": "($5.00)",
@@ -582,34 +555,31 @@ ShallowWrapper {
         "children": Array [
           <Styled(Row)>
             <Col
+              className="hidden-xs hidden-sm"
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
             >
               Date
             </Col>
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={6}
-              xs={6}
             >
               Company
             </Col>
             <Col
+              className="hidden-xs hidden-sm"
               lg={4}
               md={4}
-              sm={3}
-              xs={6}
             >
               Account
             </Col>
             <Styled(Col)
               lg={2}
               md={2}
-              sm={3}
-              xs={6}
+              sm={12}
+              xs={12}
             >
               ($5.00)
             </Styled(Col)>
@@ -636,34 +606,31 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Col
+                className="hidden-xs hidden-sm"
                 lg={2}
                 md={2}
-                sm={3}
-                xs={6}
               >
                 Date
               </Col>,
               <Col
+                className="hidden-xs hidden-sm"
                 lg={4}
                 md={4}
-                sm={6}
-                xs={6}
               >
                 Company
               </Col>,
               <Col
+                className="hidden-xs hidden-sm"
                 lg={4}
                 md={4}
-                sm={3}
-                xs={6}
               >
                 Account
               </Col>,
               <Styled(Col)
                 lg={2}
                 md={2}
-                sm={3}
-                xs={6}
+                sm={12}
+                xs={12}
               >
                 ($5.00)
               </Styled(Col)>,
@@ -677,10 +644,9 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Date",
+                "className": "hidden-xs hidden-sm",
                 "lg": 2,
                 "md": 2,
-                "sm": 3,
-                "xs": 6,
               },
               "ref": null,
               "rendered": "Date",
@@ -692,10 +658,9 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Company",
+                "className": "hidden-xs hidden-sm",
                 "lg": 4,
                 "md": 4,
-                "sm": 6,
-                "xs": 6,
               },
               "ref": null,
               "rendered": "Company",
@@ -707,10 +672,9 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Account",
+                "className": "hidden-xs hidden-sm",
                 "lg": 4,
                 "md": 4,
-                "sm": 3,
-                "xs": 6,
               },
               "ref": null,
               "rendered": "Account",
@@ -724,8 +688,8 @@ ShallowWrapper {
                 "children": "($5.00)",
                 "lg": 2,
                 "md": 2,
-                "sm": 3,
-                "xs": 6,
+                "sm": 12,
+                "xs": 12,
               },
               "ref": null,
               "rendered": "($5.00)",

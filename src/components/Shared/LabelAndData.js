@@ -12,9 +12,7 @@ export default function LabelAndData(props) {
   return (
     <Row>
       <Col className="hidden-md hidden-lg hidden-xl" sm={12} xs={12}>
-        <small>
-          <TextMuted>{props.label}</TextMuted>
-        </small>
+        <TextMuted><small>{props.label}</small></TextMuted>
       </Col>
       <Col sm={12} xs={12}>
         {noChildren() ? <span>&mdash;</span> : props.children}

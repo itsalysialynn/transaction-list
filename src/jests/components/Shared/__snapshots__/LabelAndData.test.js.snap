@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering label and data should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LabelAndData
+    label="Amount"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Col
+          className="hidden-md hidden-lg hidden-xl"
+          sm={12}
+          xs={12}
+        >
+          <Styled(styled.div)>
+            <small>
+              Amount
+            </small>
+          </Styled(styled.div)>
+        </Col>,
+        <Col
+          sm={12}
+          xs={12}
+        >
+          <span>
+            —
+          </span>
+        </Col>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Styled(styled.div)>
+            <small>
+              Amount
+            </small>
+          </Styled(styled.div)>,
+          "className": "hidden-md hidden-lg hidden-xl",
+          "sm": 12,
+          "xs": 12,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <small>
+              Amount
+            </small>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Amount",
+            },
+            "ref": null,
+            "rendered": "Amount",
+            "type": "small",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <span>
+            —
+          </span>,
+          "sm": 12,
+          "xs": 12,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "—",
+          },
+          "ref": null,
+          "rendered": "—",
+          "type": "span",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Col
+            className="hidden-md hidden-lg hidden-xl"
+            sm={12}
+            xs={12}
+          >
+            <Styled(styled.div)>
+              <small>
+                Amount
+              </small>
+            </Styled(styled.div)>
+          </Col>,
+          <Col
+            sm={12}
+            xs={12}
+          >
+            <span>
+              —
+            </span>
+          </Col>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Styled(styled.div)>
+              <small>
+                Amount
+              </small>
+            </Styled(styled.div)>,
+            "className": "hidden-md hidden-lg hidden-xl",
+            "sm": 12,
+            "xs": 12,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <small>
+                Amount
+              </small>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Amount",
+              },
+              "ref": null,
+              "rendered": "Amount",
+              "type": "small",
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <span>
+              —
+            </span>,
+            "sm": 12,
+            "xs": 12,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "—",
+            },
+            "ref": null,
+            "rendered": "—",
+            "type": "span",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
